@@ -40,4 +40,4 @@ Capstone project for Periodic Tables, a startup creating a reservation system fo
 - CSS
 - Git
 
-You can access the deployed server [here](link-to-your-server) and the frontend [here](link-to-your-frontend).
+You can access the deployed server [here](https://final-app-xi.vercel.app/dashboard).
