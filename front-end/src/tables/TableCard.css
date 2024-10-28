@@ -1,0 +1,54 @@
+.tables-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tables-card {
+  flex-basis: 20%;
+  flex-grow: 1;
+  padding: 0px 5px;
+}
+
+#tableGrid .card {
+  background-color: #F8F8F4;
+  border-radius: 40px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.capacity-badge {
+  padding-top: 5px;
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border-radius: 10px 25px 10px 10px;
+  font-size: small;
+}
+
+.people-icon {
+  margin-bottom: 4px;
+}
+
+#tableGrid .alert {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#statusWithFinishButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#finishButton {
+  margin-top: 10px;
+  padding: 5px 20px;
+  background-color: #1F2A38;
+  color: white;
+  border: none;
+}

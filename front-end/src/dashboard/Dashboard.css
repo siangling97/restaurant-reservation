@@ -1,0 +1,60 @@
+/* Dashboard */
+.dashboard {
+  background-color: hwb(41 7% 5%); /* Blue background */
+  padding: 20px;
+  border-radius: 15px;
+  filter: drop-shadow(10px 12px 0.75rem rgba(0, 0, 255, 0.2));
+  text-align: center;
+  
+}
+
+/* Horizontal Line */
+hr {
+  border: 1px solid #fff; 
+  margin: 20px 0;
+}
+
+/* Reservation Cards */
+.reservations-list {
+  background-color: rgba(7, 66, 77, 0.75);
+  border: none;
+  border-radius: 15px;
+  filter: drop-shadow(10px 12px 0.75rem #07434dc4);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.reservations-list h4 {
+  color: #F8F8F4;
+}
+
+.reservations-list .card {
+  max-width: 20rem;
+}
+
+.reservations-list .card-header {
+  color: #1F2A38;
+}
+
+/* Button Toolbar Nav */
+.btn-toolbar {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Table Cards */
+.tables-list {
+  background-color: rgba(255, 89, 88, 0.75);
+  border-radius: 15px;
+  filter: drop-shadow(10px 12px 0.75rem #d84949d2);
+  padding: 20px;
+}
+
+.tables-list h4 {
+  color: #F8F8F4;
+}
+
+.tables-list .card {
+  border: none;
+  margin: 5px 3px;
+}
